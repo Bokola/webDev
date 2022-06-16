@@ -1,0 +1,8 @@
+https://www.freecodecamp.org/news/learn-html-beginners-course/
+https://validator.w3.org/#validate_by_uri+with_options
+Extensions for vscode
+Prettier - Code formatter
+vscode-icons: for icons for each language
+Github Theme: for themes
+Live server: view webpages
+Dark New Tab - for chrome browser to make it have a dark background
