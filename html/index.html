@@ -11,13 +11,29 @@
         <link rel="icon" href="html.png" type="imag/x-icon">
 <!-- comment shortcut ctrl + k then ctrl + c -->
 <!-- add css file reference to style the page -->
-<link rel="stylesheet" href="main.css" type="text/css>">
+<link rel="stylesheet" href="main.css" type="text/css">
     </head>
     <body>
-        <h1> First Heading </h1>
+        <h1> My Goals for the Year </h1>
+
+
         <hr>
-        <!-- add sections -->
-        <section>
+
+        <!-- create a navigation area with nav -->
+        <nav>
+            <ul>
+                <li>
+                    <!-- link to our html section of the page prefix section id with #-->
+                    <a href="#html">Larn HTML</a>
+                </li>
+                <li>
+                    <a href="#vacation">Planning a Vacation</a>
+                </li>
+            </ul>
+        </nav>
+        <hr>
+        <!-- add sections with id attribute for referencing-->
+        <section id="html">
 <!-- hr adds horizontal lines -->
         <!-- shift+alt+down arrow to copy a line down -->
         <h2>I am ready to learn html </h2>
@@ -34,14 +50,15 @@
                     <li>I use visualstudio as IDE</li>
                     <li>I intend to do css and javascript as well</li>
                 </ol>
+                <br>&nbsp;&nbsp; ...I learn about web dev.
+                <br>... I plan out my schedule.
+                <!-- abbr abbreviates -->
+               
+
         </section>
         <hr>
-        <section>
-            <br>&nbsp;&nbsp; ...I learn about web dev.
-            <br>... I plan out my schedule.
-            <!-- abbr abbreviates -->
-           
-        </p>
+        <section id="vacation">
+
         <p>I've heard good things about going here:
             <!-- add location address -->
             <address>
@@ -49,7 +66,7 @@
                 Maasai Mara,<br>
                 Narok.
             </address>
-        </p>
+
         <!-- <dl> for description list -->
         <h3>Places I want to avoid</h3>
         <dl>
@@ -68,5 +85,9 @@
         
         <!-- &lt = <, &gt = > -->
         &lt;&lt;&lt;&copy;<a href="about.html"> Basil Okola</a> &gt;&gt;&gt;
+        <p>
+            <!-- adding internal link without ID takes you back to top of the page -->
+            <a href="#">Back to Top</a>
+        </p>
     </body>
 </html>
